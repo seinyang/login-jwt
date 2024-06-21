@@ -14,7 +14,7 @@ import org.springframework.web.filter.GenericFilterBean;
 
 import java.io.IOException;
 
-// 4 번 jwt를 위한 커스텀 필터를 만들기 위해 생성
+// 4. jwt를 위한 커스텀 필터를 만들기 위해 생성
 public class JwtFilter extends GenericFilterBean {
     private static final Logger logger = LoggerFactory.getLogger(JwtFilter.class);
 

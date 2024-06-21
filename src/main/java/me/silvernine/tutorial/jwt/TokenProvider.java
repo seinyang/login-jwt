@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-//3번째,토큰의 생성 , 유효성 검증을 담당
+//3,토큰의 생성 , 유효성 검증을 담당
 @Component//1.빈이 먼저 생성되고,
 public class TokenProvider implements InitializingBean {
     private final Logger logger = LoggerFactory.getLogger(TokenProvider.class);
